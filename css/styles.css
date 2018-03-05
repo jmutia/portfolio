@@ -1,0 +1,91 @@
+html {
+  margin: auto;
+  padding: 0;
+}
+body {
+  background: #fafafa;
+  font-family: Anton, sans-serif;
+  color: #212121;
+  text-align: center;
+  width: auto;
+  margin: auto;
+  font-size: 2rem;
+}
+span {
+  text-decoration: line-through;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  background: #e0e0e0;
+}
+div.box {
+  text-align: center;
+  box-sizing: border-box;
+  color: #212121;
+  font-size: 1.4rem;
+  padding: 20px;
+  width: inherit;
+  border-bottom: 1px solid #000000;
+}
+#section ul {
+  line-height: 2rem;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+#box-1 {
+  text-align: center;
+  height: auto;
+  width: auto;
+  color: #fafafa;
+  background: #212121;
+  border-bottom: 1px solid #ffffff;
+}
+#row-1>h1, #row-2>h1, #row-3>h1, #row-4>h1{
+  letter-spacing: .05em;
+}
+#row-1 {
+  text-align: center;
+  height: auto;
+  width: auto;
+  border-bottom: 1px solid #212121;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+#row-2 {
+  text-align: center;
+  height: auto;
+  width: auto;
+  border-bottom: 1px solid #212121;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+#row-3 {
+  text-align: center;
+  height: auto;
+  width: auto;
+  border-bottom: 1px solid #212121;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+#row-4 {
+  text-align: center;
+  height: auto;
+  width: auto;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-top: 500px;
+        width: 100%;
+    }
+    to {
+        margin-top: 0px;
+        width: 100%;
+    }
+}
