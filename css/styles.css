@@ -30,14 +30,24 @@ div.box {
   width: inherit;
   border-bottom: 1px solid #000000;
 }
-#section ul {
+#section-about {
+  text-align: left;
+  letter-spacing: 0.1rem;
+}
+#section-projects ul {
+  text-align: center;
+  letter-spacing: 0.1rem;
   line-height: 2rem;
   list-style: none;
-  text-align: center;
   padding: 0;
 }
+#section-contact {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
 #box-1 {
-  margin-top: 40px;
+  margin-top: 60px;
   padding-top: 2px;
   text-align: center;
   height: auto;
