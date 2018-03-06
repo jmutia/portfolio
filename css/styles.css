@@ -46,6 +46,11 @@ div.box {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
+#section-contact h3 {
+  text-align: center;
+  text-transform: lowercase;
+  letter-spacing: 0.1rem;
+}
 #box-1 {
   margin-top: 50px;
   padding-top: 2px;
