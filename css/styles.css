@@ -37,6 +37,8 @@ div.box {
   padding: 0;
 }
 #box-1 {
+  margin-top: 60px;
+  padding-top: 10px;
   text-align: center;
   height: auto;
   width: auto;
