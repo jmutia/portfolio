@@ -43,12 +43,11 @@ div.box {
 }
 #section-contact {
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
-#section-contact h3 {
+#section-contact p {
   text-align: center;
-  text-transform: lowercase;
+  text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
 #box-1 {
