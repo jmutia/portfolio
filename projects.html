@@ -18,223 +18,74 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
-<body>
-
+<body class="bg-light">
     <!--Navigation Header-->
-
-    <div class="navbarHeader sticky-top mx-3 bg-white" role="navigation">
-        <nav class="navbar mx-3 navbar-expand-lg navbar-light">            
-            <a class="navbar-brand" href="https://jmutia.github.io/portfolio">
-                <img src="./assets/site-logo.png" width="50" height="50" alt="Site Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+    <div class="container">
+        <div class="navbarHeader sticky-top mx-3 bg-light" role="navigation">
+            <nav class="navbar mx-3 navbar-expand-lg navbar-light">            
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/site-logo.png" width="50" height="50" alt="Site Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
                 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarLinks">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarLinks">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </div>
 
     <!--Main Content-->
 
-    <div class="container-fluid py-5">
-        <div class="row mx-3 justify-content-center">
-            <div class="col-lg-8 col-sm-12 pt-5">
-                <p class="display-4 text-center">See my projects.</p>
-                <p class="font-weight-light text-left">Below are some of the projects i've worked on. It's a mix of web and mobile design, graphic posters, and everything else.</p>
-            </div>
-        </div>
-        
-        <div class="row mx-3 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-5 pb-0 text-center">
-                <p class="font-weight-normal text-left text-uppercase"><strong>Scutella - Food Catering Services</strong></p>
-                <p class="font-weight-light text-left">I've finally put up my wife's food catering services website. It's a simple static site for her to display  an online food menu for her food catering service.</p>
-                <p class="font-weight-light text-left">We also had it registered to a unique latin word - Scutella, which translates to "A plate" in English.</p>
-                <p class="font-weight-light text-left"><a href="https://scutella.ph/" target="_blank"><strong>www.scutella.ph</strong></a></p>
-            
-            </div>
-        </div>
-        <div class="row mx-3 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-0 pb-3 text-center">
-                <a href="https://scutella.ph/" target="_blank">
-                    <img src="./assets/scutella.png" class="img-fluid" alt="scutella webpage">
-                </a>
-            </div>
-        </div>
-        
-        <div class="row mx-3 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-3 pb-0 text-center">
-                <p class="font-weight-normal text-left text-uppercase"><strong>LowFi Designs</strong></p>
-                <p class="font-weight-light text-left">It's a simple website i've put up to showcase clients needing web or mobile ui design conceptualisation, without asking a single centavo just to have their ideas put into action.</p>
-                <p class="font-weight-light text-left">This is my own way of helping local businesses build their own web or mobile apps, at the same time help build my UI/UX portfolio experience.</p>
-                <p class="font-weight-light text-left">Feel free to visit my website and shoot an email if you wish to chat about getting lowfidelity designs for your businesses.</p>
-                <p class="font-weight-light text-left"><a href="https://lowfidesigns.com/" target="_blank"><strong>www.lowfidesigns.com</strong></a></p>
-            
-            </div>
-        </div>
-        <div class="row mx-3 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-0 pb-3 text-center">
-                <a href="https://lowfidesigns.com/" target="_blank">
-                    <img src="./assets/lowfi-site.png" class="img-fluid" alt="lowfidesigns webpage">
-                </a>
-            </div>
-        </div>
-
-        <div class="row mx-3 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-3 pb-0 text-center">
-                <p class="font-weight-normal text-left text-uppercase"><strong>IMS : Web App</strong></p>
-                <p class="font-weight-light text-left">After the mobile app concept I had previously prototyped for my wife's food catering business, I explored on making another web app prototype to manage her stock inventory.</p>
-                <p class="font-weight-light text-left">It's just a basic web app where the backend is being loaded via headless CMS - Strapi. It's a great free opensource tool where you can manage content using Strapi's API. </p>
-                <p class="font-weight-light text-left"><a href="https://ims-v1.netlify.app/" target="_blank"><strong>IMS Webapp Prototype - v1</strong></a></p>
-            
-            </div>
-        </div>
-        <div class="row mx-3 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-0 pb-3 text-center">
-                <a href="https://ims-v1.netlify.app/" target="_blank">
-                    <img src="./assets/ims-webapp.png" class="img-fluid" alt="ims webapp prototype">
-                </a>
-            </div>
-        </div>
-
-        <div class="row mx-3 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-3 pb-0 text-center">
-                <p class="font-weight-normal text-left text-uppercase"><strong>Scutella : Food Catering App</strong></p>
-                <p class="font-weight-light text-left">Finally had the time to upload the mobile app prototype i've been working on for my wife's food catering business. I used React Native in developing the app and recorded the screen of my phone with the actual build running.</p>
-                <p class="font-weight-light text-left">It's still a work in progress but I think i'm satisfied with how the UI and UX takes me directly to choosing a food on the menu and then allows me to just add orders straight away without being presented with a lot of labels and buttons.</p>
-            </div>
-        </div>
-        <div class="row mx-3 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-0 pb-3 text-center">
-                <video class="video-fluid z-depth-1 border" autoplay loop controls muted>
-                    <source src="./assets/scutella-protoype.mov" type="video/mp4" />
-                  </video>
-            </div>
-        </div>
-
-        <div class="row mx-3 pt-5 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-3 pb-0 text-center">
-                <p class="font-weight-normal text-left text-uppercase"><strong>UI Design : Lo-Fi Wireframe</strong></p>
-                <p class="font-weight-light text-left">I'm having a mini-project about a kitchen app concept for my wife. First, I made a creative brief having my wife as the would be client. Next, made some user personas and then made this Lo-Fi Wireframe. I'll try to have the Hi-Fi Wireframe tomorrow and see if I could screengrab the prototype interaction for it.</p>
-            </div>
-        </div>
-        <div class="row mx-3 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-0 pb-3 text-center">
-                <a href="./assets/LoFi-Wireframe.png" target="_blank">
-                    <img src="./assets/LoFi-Wireframe.png" class="img-fluid" alt="Lo-Fi Wireframe of concept app">
-                </a>
-            </div>
-        </div>
-
-        <div class="row mx-3 pt-5 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-0 pb-3 text-center">
-                <p class="font-weight-normal text-left text-uppercase"><strong>Line Drawings : Home Essentials</strong></p>
-                <p class="font-weight-light text-left">Had an extra time today so I practiced on using the curvature tool in making diffuser images which I find plenty here at home. These are cards with basic lines and shapes showing different types of aroma diffusers.</p>
-            </div>
-        </div>
-        <div class="row mx-3 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-0 pb-3 text-center">
-                <a href="./assets/02 - diffusers.png" target="_blank">
-                    <img src="./assets/02 - diffusers.png" class="img-fluid" alt="Diffuser Images">
-                </a>
-            </div>
-        </div>
-
-        <div class="row mx-3 pt-5 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-0 pb-3 text-center">
-                <p class="font-weight-normal text-left text-uppercase"><strong>Ocean Animal</strong></p>
-                <p class="font-weight-light text-left">Got a little bit busy at work and thought of brushing up some of the hard skills that I haven't worked on for quite a while. So I decided to learn basic shapes and lines again using Adobe Illustrator and ended up creating an ocean animal, named Dolly.</p>
-            </div>
-        </div>
-        <div class="row mx-3 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-0 pb-3 text-center">
-                <a href="./assets/01 - ocean animal.png" target="_blank">
-                    <img src="./assets/01 - ocean animal.png" class="img-fluid" alt="Ocean Animal">
-                </a>
-            </div>
-        </div>
-
-        <div class="row mx-3 pt-5 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 pt-0 pb-3 text-center">
-                <p class="font-weight-normal text-left text-uppercase"><strong>Monogram Exploration</strong></p>
-                <p class="font-weight-light text-left">I've recently experimented on creating monograms for my wife's mini-business. It's a bit challenging to create something that would probably work as a logo too.</p> 
-                <p class="font-weight-light text-left">For the typeface, i've chosen Sans Serif with the following fonts: DM Sans, Hind Vadodara, and Noto Sans for experimentation. Gaps are showing differently for each font type, so it's a bit interesting to look at.</p>
-                <p class="font-weight-light text-left">After this, the next step is to choose a monogram to explore further and then we'll see how this goes.</p>
-            </div>
-        </div>
-        <div class="card-deck row mx-3 justify-content-center text-justify">
-            <div class="card col-lg-2 col-sm-12 pt-0 pb-3 text-center bg-light">
-                <a href="./assets/KM monogram_01 DM Sans.jpg" target="_blank">
-                    <img src="./assets/KM monogram_01 DM Sans.jpg" class="img-fluid" alt="KM monogram DM Sans">
-                </a>
-              <div class="card-body">
-                <p class="card-title"><small>KM monogram <br/> DM Sans</small></p>
-              </div>
-            </div>
-            <div class="card col-lg-2 col-sm-12 pt-0 pb-3 text-center bg-light">
-                <a href="./assets/KM monogram_02 Hind Vadodara.jpg" target="_blank">
-                    <img src="./assets/KM monogram_02 Hind Vadodara.jpg" class="img-fluid" alt="KM monogram Hind Vadodara">
-                </a>
-              <div class="card-body">
-                <p class="card-title"><small>KM monogram <br/> Hind Vadodara</small></p>
-              </div>
-            </div>
-            <div class="card col-lg-2 col-sm-12 pt-0 pb-3 text-center bg-light">
-                <a href="./assets/KM monogram_03 Noto Sans.jpg" target="_blank">
-                    <img src="./assets/KM monogram_03 Noto Sans.jpg" class="img-fluid" alt="KM monogram Noto Sans">
-                </a>
-              <div class="card-body">
-                <p class="card-title"><small>KM monogram <br/> Noto Sans</small></p>
-              </div>
-            </div>
-        </div>
-
-        <div class="row mx-3 pt-5 justify-content-center text-justify">
-            <div class="col-lg-8 col-sm-12 py-3 text-center">
-                <p class="font-weight-normal text-left text-uppercase"><strong>3-steps to mastery</strong></p>
-                <p class="font-weight-light text-left">I call this poster series, 3-steps to mastery. I feel that this simplifies what each of us needs to understand in order for us to reach our goals. It's a way for us to clear the noise and just focus on the goals that we want to achieve.</p>
-                <p class="font-weight-light text-left">And having to set short-term goals doesn't mean we are not aiming for the long term ones, it's just focusing on the path of least resistance. At the same time, it doesn't need to be perfect at all. We all just need to be consistent.</p>
-            </div>
-        </div>
-        <div class="row mx-3 justify-content-center text-justify">
-            <div id="carouselExampleControls" class="carousel slide col-lg-8 col-sm-12 pt-0 pb-3 text-center" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="./assets/shortterm-goals.png" target="_blank">
-                        <img src="./assets/shortterm-goals.png" class="img-fluid" alt="set short-term goals">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="./assets/takeaction.png" target="_blank">
-                        <img src="./assets/takeaction.png" class="img-fluid" alt="take action">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="./assets/beproductive.png" target="_blank">
-                        <img src="./assets/beproductive.png" class="img-fluid" alt="do productive things">
-                    </a>
-                  </div>
+        <div class="container bg-light pt-5">
+            <a href="https://scutella.ph/" class="text-decoration-none" target="_blank">
+                <div class="row mx-5 bg-white justify-content-center shadow p-3 mb-5 bg-white rounded">
+                    <div class="col-lg-5 col-sm-12 pt-5">
+                        <p class="font-weight-normal text-left text-uppercase text-dark"><h5>Scutella Food Catering Services</h5></p>
+                        <p class="font-weight-light text-left text-dark">A website for my wife's food catering business.</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-12 pt-3 pb-3 text-center">
+                        <img src="./assets/scutella.png" class="img-fluid" alt="scutella webpage">
+                    </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-            </div>
+            </a>
         </div>
-    </div>
 
+        <div class="container bg-light">
+            <a href="https://lowfidesigns.com/" class="text-decoration-none" target="_blank">
+                <div class="row mx-5 bg-white justify-content-center shadow p-3 mb-5 bg-white rounded">
+                    <div class="col-lg-5 col-sm-12 pt-5">
+                        <p class="font-weight-normal text-left text-uppercase text-dark"><h5>LowFi Designs</h5></p>
+                        <p class="font-weight-light text-left text-dark">Landing page targeted for local businesses needing help in building their online presence.</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-12 pt-3 pb-3 text-center">
+                        <img src="./assets/lowfi-site.png" class="img-fluid" alt="lowfidesigns webpage">
+                    </div>
+                </div>
+            </a>
+        </div>
 
+        <!--
+        <div class="container bg-light pb-5">
+            <a href="https://scutella.ph/" class="text-decoration-none" target="_blank">
+                <div class="row mx-5 bg-white justify-content-center shadow p-3 bg-white rounded">
+                    <div class="col-lg-5 col-sm-12 pt-5">
+                        <p class="font-weight-normal text-left text-uppercase text-dark"><h5>Scutella Food Catering Services</h5></p>
+                        <p class="font-weight-light text-left text-dark">A website for my wife's food catering business.</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-12 pt-3 pb-3 text-center">
+                        <img src="./assets/scutella.png" class="img-fluid" alt="scutella webpage">
+                    </div>
+                </div>
+            </a>
+        </div>
+        -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
