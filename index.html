@@ -68,6 +68,59 @@
         </div>
     </div>
     </div>
+    
+    <style> 
+.truste-banner {
+       	margin: 0 auto; 
+      	}
+
+.truste-messageColumn {
+        	font-family: Arial,Helvetica,sans-serif;
+        	font-size: 16px;
+        	color: #000000;
+        	margin: 15px 0px 15px 15px;
+        	float: left;
+    	}
+
+    	.truste-buttonsColumn {
+        	float: right;
+        	margin: 10px 10px 10px 0px;
+    	}
+
+    	.truste-button1,
+    	.truste-button2  {
+        	font-family: Arial,Helvetica,sans-serif;
+        	text-transform: uppercase;
+        	background: #797979;
+        	color: #ffffff;
+        	font-size:12px;
+        	width: 170px;
+        	height: auto;
+        	cursor: pointer;
+        	margin-left: 5px;
+    	padding:5px;
+        	border: 0px none;
+    	}
+</style>
+
+<div id="truste-consent-track" style="display:none; background-color:#c8c8c8;">
+<div id="truste-consent-content" class="truste-banner" style="overflow: hidden; max-width: 1200px; max-height:auto;">
+<div id="truste-consent-text" class="truste-messageColumn">{{[By using the Mode Media site, you agree with our use of cookies.]}} 
+</div>
+
+<div id="truste-consent-buttons" class="truste-buttonsColumn">
+<button id="truste-consent-button" type="button" class="truste-button1">{{[I consent to cookies]}} </button>
+<button id="truste-show-consent" type="button" class="truste-button2">{{[Want to know more?]}}</button>
+</div>
+</div>
+</div>
+
+<footer>
+<div id="teconsent" style="display: none;"></div> 
+<script async=”async” src=//consent.truste.com/notice?domain=truste.com&c=teconsent&js=nj&noticeType=bb crossorigin=””></script>
+</div>
+<footer>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
